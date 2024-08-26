@@ -1,0 +1,33 @@
+.formulario-tarea {
+    margin-top: 20px;
+}
+input, select, button {
+    display: block;
+    width: 98%;
+    margin: 10px 0;
+    padding: 10px;
+}
+button {
+    cursor: pointer;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+thead {
+    background-color: #f4f4f4;
+}
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+.boton-estado {
+    border: none;
+    background-color: #f4f4f4;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+.boton-estado:hover {
+    background-color: #ddd;
+}

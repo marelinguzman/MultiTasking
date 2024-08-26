@@ -1,0 +1,76 @@
+.modal-login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+}
+
+.contenido-modal-login {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 500px;
+    width: 100%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bienvenida {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.bienvenida img {
+    max-width: 100px;
+    border-radius: 50%;
+}
+
+.bienvenida h2 {
+    margin-top: 10px;
+}
+
+#formLogin {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+}
+
+#formLogin input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 95%;
+}
+
+#formLogin button {
+    padding: 10px;
+    border: 1px solid palevioletred;
+    border-radius: 5px;
+    background-color: palevioletred;
+    color: white;
+    cursor: pointer;
+    width: 100%;
+    height: 35px;
+}
+
+#formLogin a {
+    text-decoration: none;
+    color: #007bff;
+    margin-top: 10px;
+    display: block;
+    text-align: center;
+}
+
+#mensaje-error {
+    color: red;
+    margin-top: 10px;
+}

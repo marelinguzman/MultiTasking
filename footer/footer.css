@@ -1,0 +1,24 @@
+.pie {
+  bottom: 0;
+  width: 100%;
+  background-color: #fff;
+  text-align: center;
+  padding: 10px;
+  border-top: 1px solid #ddd;
+}
+
+.pie p {
+  margin: 0;
+}
+.footer img{
+  width: 7rem;
+  height: 7rem;
+  margin-top: 10rem;
+}
+.footer{
+  display: grid;
+  grid-template-columns: 30% 25% 15% 30%;
+}
+.footer p{
+  margin-top: 13rem;
+}
