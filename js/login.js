@@ -10,7 +10,7 @@ function mostrarModalLogin() {
                 <h2>Generador de asignaciones SCL Bienvenido</h2>
             </div>
             <form id="formLogin">
-                <input type="email" id="correo" placeholder="Correo electrónico del profesor" required>
+                <input type="email" id="correo" placeholder="Correo electrónico" required>
                 <input type="password" id="contrasena" placeholder="Contraseña" required>
                 <button type="submit">Iniciar sesión</button>
                 <button type="button" id="botonBeta">No tengo credencial</button>
@@ -89,7 +89,7 @@ function agregarNuevaCuenta(event) {
         nombre: nombreNuevo,
         correo: correoNuevo,
         contrasena: contrasenaNueva,
-        perfil: "https://github.com/marelinguzman/img_repositorio/blob/main/foto_profe.png?raw=true"
+        perfil: "https://png.pngtree.com/png-vector/20210706/ourlarge/pngtree-blank-whatsapp-bussiness-man-photo-profile-png-image_3562846.jpg"
     };
 
     usuariosRegister.push(nuevoUsuario);
@@ -117,11 +117,21 @@ const usuariosRegister = [
         perfil: "https://github.com/marelinguzman/img_repositorio/blob/main/foto_profe.png?raw=true"
     },
     {
-        nombre: "Marelin",
-        correo: "mcguzman@scl.edu.gt",
-        contrasena: "mar",
-        perfil: "https://github.com/marelinguzman/img_repositorio/blob/main/foto_profe.png?raw=true"
+        nombre:"Maria",
+        correo: "mgomez@gmail.com",
+        contrasena: "mariamar"
+    },
+    {
+        nombre: "Johan",
+        correo: "johandf@gmail.com",
+        contrasena: "perronice"
+    },
+    {
+        nombre: "Gaby",
+        correo: "gabriela@gmail.com",
+        contrasena: "gatonice"
     }
+
 ];
 
 const usuariosGuardados = JSON.parse(localStorage.getItem('usuariosRegister'));

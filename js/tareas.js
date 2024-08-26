@@ -42,7 +42,6 @@ function mostrarTareas() {
         </table>
     `;
 
-    // Cargar tareas desde el localStorage
     cargarTareas();
 
     document.getElementById('formulario-tarea').addEventListener('submit', agregarTarea);

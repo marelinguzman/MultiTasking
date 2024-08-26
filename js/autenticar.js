@@ -1,5 +1,5 @@
 const usuarios = [
-    { correo: 'usuario@ejemplo.com', contraseña: 'contraseña', nombre: 'Usuario', imagen: 'default-avatar.png' }
+    { correo: 'usuario@ejemplo.com', contraseña: 'contraseña', nombre: 'Usuario', imagen: 'https://lh3.googleusercontent.com/a-/ALV-UjUJJLHjYK2EfvBbGTPP4TyVmeTXLAisGkh-BkUlKu6JZQTHbnPN=s40-c' }
 ];
 
 function mostrarModalLogin() {

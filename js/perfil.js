@@ -21,23 +21,21 @@ function actualizarPerfil() {
     const usuario = JSON.parse(localStorage.getItem('usuario'));
     if (usuario) {
         document.getElementById('usuario').textContent = `Bienvenido, ${usuario.nombre}`;
-        document.getElementById('imagenPerfil').src = usuario.imagen || 'default-avatar.png';
+        document.getElementById('imagenPerfil').src = usuario.imagen | 'default-avatar.png';
         mostrarTareas();
     }
 }
 
 function mostrarTareas() {
     const contenidoTareas = document.getElementById('contenido-tareas');
-    // Ejemplo de tareas, reemplazar con tus datos reales
     const tareas = [
         { id: 1, nombre: 'Tarea 1', descripcion: 'Descripción de la tarea 1' },
         { id: 2, nombre: 'Tarea 2', descripcion: 'Descripción de la tarea 2' },
         { id: 3, nombre: 'Tarea 3', descripcion: 'Descripción de la tarea 3' }
     ];
 
-    // Mostrar todas las tareas
     contenidoTareas.innerHTML = tareas.map(tarea => `
-        <div class="tarea" data-id="${tarea.id}">
+        <div class="tarea" id="${tarea.id}">
             <h2>${tarea.nombre}</h2>
             <p>${tarea.descripcion}</p>
         </div>
